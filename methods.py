@@ -130,4 +130,4 @@ class EmployeesPage:
 
 
 def generate_random_string():
-    return ''.join(random.choices(string.ascii_letters + string.digits, k=random.randint(0, 20)))
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=random.randint(1, 20)))
