@@ -3,7 +3,7 @@
 This projects is dedicated to the testing of following web site:
 http://cafetownsend-angular-rails.herokuapp.com/
 
-The results of a sample test run can be found here:
+The Allure web page with the results of a sample test run can be found here:
 
 ### DISCLAIMER ###
 * *There are only "smoke" tests written in the project. There are far more tests can be written to cover full functionality*
