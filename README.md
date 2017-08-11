@@ -1,6 +1,6 @@
 # PURPOSE OF THE PROJECT
 
-This projects id dedicated to the testing of following web site:
+This projects is dedicated to the testing of following web site:
 http://cafetownsend-angular-rails.herokuapp.com/
 
 The results of a sample test run can be found here:
