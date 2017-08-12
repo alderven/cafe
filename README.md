@@ -35,20 +35,26 @@ But to get more representative results we are going to generate Allure report.
 
 # HOW TO GENERATE ALLURE REPORT:
 We are using Allure Framework to get nice and detailed representation of the results.
-Execute following line in Command Prompt:
+
+You need to execute following line in a Command Prompt:
 ```javascript
 allure serve full_path_to_report_folder
 ```
-Generated Allure report will be shown in your browser. Here is the one generated for this project: https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html
-You can find a lot of helpful information in the report. Such as overall test run statistics:
+Generated Allure report will be shown in your browser.
+
+Here is the one that was generated for this project: https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html
+
+You can find a lot of helpful information in the Allure report such as:
+
+* Overall test run status:
 ![Status](https://raw.githubusercontent.com/alderven/cafe/master/imgs/Status.png)
 * Features which were tested (here you can see that all blocking functionality is fine and one critical functionality was broken):
 ![Severity](https://raw.githubusercontent.com/alderven/cafe/master/imgs/Severity.png)
 * Features which were tested:
 ![Severity](https://raw.githubusercontent.com/alderven/cafe/master/imgs/Features.png)
-* Details of the each test case with the business level steps:
+* Details of each test case with every step described on a business level:
 ![Test Case details](https://github.com/alderven/cafe/blob/master/imgs/TestSteps.png)
-And tons of other helpful information.
+* ... And tons of other helpful information: : https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html
 
 # TECHNICAL BACKGROUND
 Following technologies were used:
