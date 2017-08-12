@@ -1,0 +1,382 @@
+{
+  "uid" : "c733e0d563da8042",
+  "name" : "test_add_same_employee_twice",
+  "fullName" : "test_CreateEmployee.test_add_same_employee_twice",
+  "historyId" : "296ee168a4b73e440eaf02b63e44651e",
+  "time" : {
+    "start" : 1502526679333,
+    "stop" : 1502526733203,
+    "duration" : 53870
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "AssertionError: Expected 1 employee. Got: 2\nassert 2 == 1",
+    "trace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"51ebc31f7a5a89c3e0e86884b1ea1975\")>\nconfig = <configparser.ConfigParser object at 0x000002B3C4A983C8>\nnew_employee = {'date': '2017-08-12', 'email': 'Sandra.Forman@gmail.com', 'firstName': 'Sandra', 'lastName': 'Forman'}\n\n    @pytest.allure.feature('Create employee')\n    @pytest.allure.story('Adding same employee twice should be restricted')\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_add_same_employee_twice(driver, config, new_employee):\n    \n        with pytest.allure.step('Add same employee again'):\n    \n            with pytest.allure.step('Click \"Create\" button'):\n                methods.EmployeesPage.click_create_button(driver, config)\n    \n            with pytest.allure.step('Fill \"First name\" field'):\n                methods.EmployeesPage.Create.fill_first_name_field(driver, config, new_employee['firstName'])\n    \n            with pytest.allure.step('Fill \"Last name\" field'):\n                methods.EmployeesPage.Create.fill_last_name_field(driver, config, new_employee['lastName'])\n    \n            with pytest.allure.step('Fill \"Start date\" field'):\n                methods.EmployeesPage.Create.fill_start_date_field(driver, config, new_employee['date'])\n    \n            with pytest.allure.step('Fill \"Email\" field'):\n                methods.EmployeesPage.Create.fill_email_field(driver, config, new_employee['email'])\n    \n            with pytest.allure.step('Click \"Add\" button'):\n                methods.EmployeesPage.Create.click_add_button(driver, config)\n    \n        with pytest.allure.step('Check, that there is only one created employee in the employees list'):\n            employees = methods.EmployeesPage.Create.get_all_employees(driver, config)\n            employees_count = employees.count('{} {}'.format(new_employee['firstName'], new_employee['lastName']))\n            err_msg = 'Expected 1 employee. Got: {}'.format(employees_count)\n>           assert employees_count == 1, err_msg\nE           AssertionError: Expected 1 employee. Got: 2\nE           assert 2 == 1\n\ntest_CreateEmployee.py:70: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "AssertionError: Expected 1 employee. Got: 2\nassert 2 == 1",
+      "trace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"51ebc31f7a5a89c3e0e86884b1ea1975\")>\nconfig = <configparser.ConfigParser object at 0x000002B3C4A983C8>\nnew_employee = {'date': '2017-08-12', 'email': 'Sandra.Forman@gmail.com', 'firstName': 'Sandra', 'lastName': 'Forman'}\n\n    @pytest.allure.feature('Create employee')\n    @pytest.allure.story('Adding same employee twice should be restricted')\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_add_same_employee_twice(driver, config, new_employee):\n    \n        with pytest.allure.step('Add same employee again'):\n    \n            with pytest.allure.step('Click \"Create\" button'):\n                methods.EmployeesPage.click_create_button(driver, config)\n    \n            with pytest.allure.step('Fill \"First name\" field'):\n                methods.EmployeesPage.Create.fill_first_name_field(driver, config, new_employee['firstName'])\n    \n            with pytest.allure.step('Fill \"Last name\" field'):\n                methods.EmployeesPage.Create.fill_last_name_field(driver, config, new_employee['lastName'])\n    \n            with pytest.allure.step('Fill \"Start date\" field'):\n                methods.EmployeesPage.Create.fill_start_date_field(driver, config, new_employee['date'])\n    \n            with pytest.allure.step('Fill \"Email\" field'):\n                methods.EmployeesPage.Create.fill_email_field(driver, config, new_employee['email'])\n    \n            with pytest.allure.step('Click \"Add\" button'):\n                methods.EmployeesPage.Create.click_add_button(driver, config)\n    \n        with pytest.allure.step('Check, that there is only one created employee in the employees list'):\n            employees = methods.EmployeesPage.Create.get_all_employees(driver, config)\n            employees_count = employees.count('{} {}'.format(new_employee['firstName'], new_employee['lastName']))\n            err_msg = 'Expected 1 employee. Got: {}'.format(employees_count)\n>           assert employees_count == 1, err_msg\nE           AssertionError: Expected 1 employee. Got: 2\nE           assert 2 == 1\n\ntest_CreateEmployee.py:70: AssertionError",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Add same employee again",
+      "time" : {
+        "start" : 1502526697042,
+        "stop" : 1502526703769,
+        "duration" : 6727
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ {
+        "name" : "Click \"Create\" button",
+        "time" : {
+          "start" : 1502526697042,
+          "stop" : 1502526698177,
+          "duration" : 1135
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"First name\" field",
+        "time" : {
+          "start" : 1502526698177,
+          "stop" : 1502526699326,
+          "duration" : 1149
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"Last name\" field",
+        "time" : {
+          "start" : 1502526699326,
+          "stop" : 1502526700400,
+          "duration" : 1074
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"Start date\" field",
+        "time" : {
+          "start" : 1502526700400,
+          "stop" : 1502526701539,
+          "duration" : 1139
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"Email\" field",
+        "time" : {
+          "start" : 1502526701539,
+          "stop" : 1502526702644,
+          "duration" : 1105
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click \"Add\" button",
+        "time" : {
+          "start" : 1502526702644,
+          "stop" : 1502526703769,
+          "duration" : 1125
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check, that there is only one created employee in the employees list",
+      "time" : {
+        "start" : 1502526703769,
+        "stop" : 1502526704850,
+        "duration" : 1081
+      },
+      "status" : "failed",
+      "statusDetails" : {
+        "message" : "AssertionError: Expected 1 employee. Got: 2\nassert 2 == 1",
+        "trace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"51ebc31f7a5a89c3e0e86884b1ea1975\")>\nconfig = <configparser.ConfigParser object at 0x000002B3C4A983C8>\nnew_employee = {'date': '2017-08-12', 'email': 'Sandra.Forman@gmail.com', 'firstName': 'Sandra', 'lastName': 'Forman'}\n\n    @pytest.allure.feature('Create employee')\n    @pytest.allure.story('Adding same employee twice should be restricted')\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_add_same_employee_twice(driver, config, new_employee):\n    \n        with pytest.allure.step('Add same employee again'):\n    \n            with pytest.allure.step('Click \"Create\" button'):\n                methods.EmployeesPage.click_create_button(driver, config)\n    \n            with pytest.allure.step('Fill \"First name\" field'):\n                methods.EmployeesPage.Create.fill_first_name_field(driver, config, new_employee['firstName'])\n    \n            with pytest.allure.step('Fill \"Last name\" field'):\n                methods.EmployeesPage.Create.fill_last_name_field(driver, config, new_employee['lastName'])\n    \n            with pytest.allure.step('Fill \"Start date\" field'):\n                methods.EmployeesPage.Create.fill_start_date_field(driver, config, new_employee['date'])\n    \n            with pytest.allure.step('Fill \"Email\" field'):\n                methods.EmployeesPage.Create.fill_email_field(driver, config, new_employee['email'])\n    \n            with pytest.allure.step('Click \"Add\" button'):\n                methods.EmployeesPage.Create.click_add_button(driver, config)\n    \n        with pytest.allure.step('Check, that there is only one created employee in the employees list'):\n            employees = methods.EmployeesPage.Create.get_all_employees(driver, config)\n            employees_count = employees.count('{} {}'.format(new_employee['firstName'], new_employee['lastName']))\n            err_msg = 'Expected 1 employee. Got: {}'.format(employees_count)\n>           assert employees_count == 1, err_msg\nE           AssertionError: Expected 1 employee. Got: 2\nE           assert 2 == 1\n\ntest_CreateEmployee.py:70: AssertionError",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Add same employee again",
+      "time" : {
+        "start" : 1502526725473,
+        "stop" : 1502526732105,
+        "duration" : 6632
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ {
+        "name" : "Click \"Create\" button",
+        "time" : {
+          "start" : 1502526725473,
+          "stop" : 1502526726578,
+          "duration" : 1105
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"First name\" field",
+        "time" : {
+          "start" : 1502526726578,
+          "stop" : 1502526727701,
+          "duration" : 1123
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"Last name\" field",
+        "time" : {
+          "start" : 1502526727701,
+          "stop" : 1502526728789,
+          "duration" : 1088
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"Start date\" field",
+        "time" : {
+          "start" : 1502526728789,
+          "stop" : 1502526729884,
+          "duration" : 1095
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Fill \"Email\" field",
+        "time" : {
+          "start" : 1502526729884,
+          "stop" : 1502526731019,
+          "duration" : 1135
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click \"Add\" button",
+        "time" : {
+          "start" : 1502526731019,
+          "stop" : 1502526732105,
+          "duration" : 1086
+        },
+        "status" : "passed",
+        "statusDetails" : {
+          "flaky" : false
+        },
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check, that there is only one created employee in the employees list",
+      "time" : {
+        "start" : 1502526732105,
+        "stop" : 1502526733191,
+        "duration" : 1086
+      },
+      "status" : "failed",
+      "statusDetails" : {
+        "message" : "AssertionError: Expected 1 employee. Got: 2\nassert 2 == 1",
+        "trace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"51ebc31f7a5a89c3e0e86884b1ea1975\")>\nconfig = <configparser.ConfigParser object at 0x000002B3C4A983C8>\nnew_employee = {'date': '2017-08-12', 'email': 'Sandra.Forman@gmail.com', 'firstName': 'Sandra', 'lastName': 'Forman'}\n\n    @pytest.allure.feature('Create employee')\n    @pytest.allure.story('Adding same employee twice should be restricted')\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_add_same_employee_twice(driver, config, new_employee):\n    \n        with pytest.allure.step('Add same employee again'):\n    \n            with pytest.allure.step('Click \"Create\" button'):\n                methods.EmployeesPage.click_create_button(driver, config)\n    \n            with pytest.allure.step('Fill \"First name\" field'):\n                methods.EmployeesPage.Create.fill_first_name_field(driver, config, new_employee['firstName'])\n    \n            with pytest.allure.step('Fill \"Last name\" field'):\n                methods.EmployeesPage.Create.fill_last_name_field(driver, config, new_employee['lastName'])\n    \n            with pytest.allure.step('Fill \"Start date\" field'):\n                methods.EmployeesPage.Create.fill_start_date_field(driver, config, new_employee['date'])\n    \n            with pytest.allure.step('Fill \"Email\" field'):\n                methods.EmployeesPage.Create.fill_email_field(driver, config, new_employee['email'])\n    \n            with pytest.allure.step('Click \"Add\" button'):\n                methods.EmployeesPage.Create.click_add_button(driver, config)\n    \n        with pytest.allure.step('Check, that there is only one created employee in the employees list'):\n            employees = methods.EmployeesPage.Create.get_all_employees(driver, config)\n            employees_count = employees.count('{} {}'.format(new_employee['firstName'], new_employee['lastName']))\n            err_msg = 'Expected 1 employee. Got: {}'.format(employees_count)\n>           assert employees_count == 1, err_msg\nE           AssertionError: Expected 1 employee. Got: 2\nE           assert 2 == 1\n\ntest_CreateEmployee.py:70: AssertionError",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create employee"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "Adding same employee twice should be restricted"
+  }, {
+    "name" : "thread",
+    "value" : "14304-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateEmployee"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CreateEmployee"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_add_same_employee_twice"
+  }, {
+    "name" : "package",
+    "value" : "test_CreateEmployee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c733e0d563da8042.json",
+  "statusDetailsSafe" : {
+    "message" : "AssertionError: Expected 1 employee. Got: 2\nassert 2 == 1",
+    "trace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"51ebc31f7a5a89c3e0e86884b1ea1975\")>\nconfig = <configparser.ConfigParser object at 0x000002B3C4A983C8>\nnew_employee = {'date': '2017-08-12', 'email': 'Sandra.Forman@gmail.com', 'firstName': 'Sandra', 'lastName': 'Forman'}\n\n    @pytest.allure.feature('Create employee')\n    @pytest.allure.story('Adding same employee twice should be restricted')\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_add_same_employee_twice(driver, config, new_employee):\n    \n        with pytest.allure.step('Add same employee again'):\n    \n            with pytest.allure.step('Click \"Create\" button'):\n                methods.EmployeesPage.click_create_button(driver, config)\n    \n            with pytest.allure.step('Fill \"First name\" field'):\n                methods.EmployeesPage.Create.fill_first_name_field(driver, config, new_employee['firstName'])\n    \n            with pytest.allure.step('Fill \"Last name\" field'):\n                methods.EmployeesPage.Create.fill_last_name_field(driver, config, new_employee['lastName'])\n    \n            with pytest.allure.step('Fill \"Start date\" field'):\n                methods.EmployeesPage.Create.fill_start_date_field(driver, config, new_employee['date'])\n    \n            with pytest.allure.step('Fill \"Email\" field'):\n                methods.EmployeesPage.Create.fill_email_field(driver, config, new_employee['email'])\n    \n            with pytest.allure.step('Click \"Add\" button'):\n                methods.EmployeesPage.Create.click_add_button(driver, config)\n    \n        with pytest.allure.step('Check, that there is only one created employee in the employees list'):\n            employees = methods.EmployeesPage.Create.get_all_employees(driver, config)\n            employees_count = employees.count('{} {}'.format(new_employee['firstName'], new_employee['lastName']))\n            err_msg = 'Expected 1 employee. Got: {}'.format(employees_count)\n>           assert employees_count == 1, err_msg\nE           AssertionError: Expected 1 employee. Got: 2\nE           assert 2 == 1\n\ntest_CreateEmployee.py:70: AssertionError",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,137 @@
+{
+  "uid" : "4a5df62ea33d5492",
+  "name" : "test_login_invalid_credentials",
+  "fullName" : "test_Login.test_login_invalid_credentials",
+  "historyId" : "b673b45ef35bbe7416ac3ce04aeacff7",
+  "time" : {
+    "start" : 1502526792906,
+    "stop" : 1502526801713,
+    "duration" : 8807
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter invalid Username",
+      "time" : {
+        "start" : 1502526797359,
+        "stop" : 1502526798452,
+        "duration" : 1093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter invalid Password",
+      "time" : {
+        "start" : 1502526798452,
+        "stop" : 1502526799563,
+        "duration" : 1111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Login\" button",
+      "time" : {
+        "start" : 1502526799563,
+        "stop" : 1502526800667,
+        "duration" : 1104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check, that error message displays",
+      "time" : {
+        "start" : 1502526800667,
+        "stop" : 1502526801713,
+        "duration" : 1046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Login with invalid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "14304-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_login_invalid_credentials"
+  }, {
+    "name" : "package",
+    "value" : "test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a5df62ea33d5492.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,137 @@
+{
+  "uid" : "4fc3f8aef2e59d73",
+  "name" : "test_delete_employee",
+  "fullName" : "test_DeleteEmployee.test_delete_employee",
+  "historyId" : "ac8ad72611fc2b78f02f9984ddb7501a",
+  "time" : {
+    "start" : 1502526736276,
+    "stop" : 1502526759352,
+    "duration" : 23076
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Find created employee in the list",
+      "time" : {
+        "start" : 1502526753929,
+        "stop" : 1502526756144,
+        "duration" : 2215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Delete\" button",
+      "time" : {
+        "start" : 1502526756144,
+        "stop" : 1502526757204,
+        "duration" : 1060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Confirm deleting",
+      "time" : {
+        "start" : 1502526757204,
+        "stop" : 1502526758209,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check, that created employee is not in the list anymore",
+      "time" : {
+        "start" : 1502526758209,
+        "stop" : 1502526759352,
+        "duration" : 1143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Delete employee"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Delete employee"
+  }, {
+    "name" : "thread",
+    "value" : "14304-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_DeleteEmployee"
+  }, {
+    "name" : "testClass",
+    "value" : "test_DeleteEmployee"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_delete_employee"
+  }, {
+    "name" : "package",
+    "value" : "test_DeleteEmployee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4fc3f8aef2e59d73.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

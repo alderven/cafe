@@ -1,0 +1,212 @@
+{
+  "uid" : "6a8b5cd3b12a1b52",
+  "name" : "test_delete_employee",
+  "fullName" : "test_EditEmployee.test_delete_employee",
+  "historyId" : "957bacdabc84232328cd96e4ea3a994b",
+  "time" : {
+    "start" : 1502526762435,
+    "stop" : 1502526789830,
+    "duration" : 27395
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Find created employee in the list",
+      "time" : {
+        "start" : 1502526779973,
+        "stop" : 1502526782120,
+        "duration" : 2147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Edit\" button",
+      "time" : {
+        "start" : 1502526782120,
+        "stop" : 1502526783219,
+        "duration" : 1099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Update all fields",
+      "time" : {
+        "start" : 1502526783219,
+        "stop" : 1502526787639,
+        "duration" : 4420
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update \"First name\" field",
+        "time" : {
+          "start" : 1502526783219,
+          "stop" : 1502526784321,
+          "duration" : 1102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update \"Last name\" field",
+        "time" : {
+          "start" : 1502526784321,
+          "stop" : 1502526785389,
+          "duration" : 1068
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update \"Start date\" field",
+        "time" : {
+          "start" : 1502526785389,
+          "stop" : 1502526786492,
+          "duration" : 1103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update \"Email\" field",
+        "time" : {
+          "start" : 1502526786492,
+          "stop" : 1502526787639,
+          "duration" : 1147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Update\" button",
+      "time" : {
+        "start" : 1502526787639,
+        "stop" : 1502526788754,
+        "duration" : 1115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check, that updated employee is in the list",
+      "time" : {
+        "start" : 1502526788754,
+        "stop" : 1502526789830,
+        "duration" : 1076
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Edit employee"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Edit employee"
+  }, {
+    "name" : "thread",
+    "value" : "14304-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_EditEmployee"
+  }, {
+    "name" : "testClass",
+    "value" : "test_EditEmployee"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_delete_employee"
+  }, {
+    "name" : "package",
+    "value" : "test_EditEmployee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a8b5cd3b12a1b52.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

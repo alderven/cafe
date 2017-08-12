@@ -1,0 +1,117 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Edit employee",
+    "children" : [ {
+      "name" : "Edit employee",
+      "children" : [ {
+        "name" : "test_delete_employee",
+        "uid" : "6a8b5cd3b12a1b52",
+        "parentUid" : "c7ae241d8ba6a785b1847c007ce16603",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526762435,
+          "stop" : 1502526789830,
+          "duration" : 27395
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7ae241d8ba6a785b1847c007ce16603"
+    } ],
+    "uid" : "f9d399f530d26aced59bd7d73323a177"
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "Login with invalid credentials",
+      "children" : [ {
+        "name" : "test_login_invalid_credentials",
+        "uid" : "4a5df62ea33d5492",
+        "parentUid" : "f25900b9f52dd38f728e0326cf222738",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526792906,
+          "stop" : 1502526801713,
+          "duration" : 8807
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f25900b9f52dd38f728e0326cf222738"
+    }, {
+      "name" : "Login and Logout",
+      "children" : [ {
+        "name" : "test_login_logout",
+        "uid" : "c269d41f503183ae",
+        "parentUid" : "108fa7ff774721670d6acbdfc9312c11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526804791,
+          "stop" : 1502526816942,
+          "duration" : 12151
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "108fa7ff774721670d6acbdfc9312c11"
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  }, {
+    "name" : "Create employee",
+    "children" : [ {
+      "name" : "Create new employee",
+      "children" : [ {
+        "name" : "test_create_new_employee",
+        "uid" : "74bdb18b3f22f642",
+        "parentUid" : "c8dae1d1a5e38fc85add88780f092ec0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526658659,
+          "stop" : 1502526676253,
+          "duration" : 17594
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8dae1d1a5e38fc85add88780f092ec0"
+    }, {
+      "name" : "Adding same employee twice should be restricted",
+      "children" : [ {
+        "name" : "test_add_same_employee_twice",
+        "uid" : "c733e0d563da8042",
+        "parentUid" : "bdf9f746c7ca62dde66085aed094e491",
+        "status" : "failed",
+        "time" : {
+          "start" : 1502526679333,
+          "stop" : 1502526733203,
+          "duration" : 53870
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdf9f746c7ca62dde66085aed094e491"
+    } ],
+    "uid" : "7a65dcb87d936c3bcdad74b9fd65e251"
+  }, {
+    "name" : "Delete employee",
+    "children" : [ {
+      "name" : "Delete employee",
+      "children" : [ {
+        "name" : "test_delete_employee",
+        "uid" : "4fc3f8aef2e59d73",
+        "parentUid" : "75abd00c41d0e863a9e253bd4ed25898",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526736276,
+          "stop" : 1502526759352,
+          "duration" : 23076
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75abd00c41d0e863a9e253bd4ed25898"
+    } ],
+    "uid" : "5a666bd7b8d6cb7145c99ea9f1473797"
+  } ]
+}

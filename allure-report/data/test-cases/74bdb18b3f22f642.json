@@ -1,0 +1,182 @@
+{
+  "uid" : "74bdb18b3f22f642",
+  "name" : "test_create_new_employee",
+  "fullName" : "test_CreateEmployee.test_create_new_employee",
+  "historyId" : "9096bd39257833d67042dd448711afc2",
+  "time" : {
+    "start" : 1502526658659,
+    "stop" : 1502526676253,
+    "duration" : 17594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click \"Create\" button",
+      "time" : {
+        "start" : 1502526668432,
+        "stop" : 1502526669535,
+        "duration" : 1103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fill \"First name\" field",
+      "time" : {
+        "start" : 1502526669535,
+        "stop" : 1502526670658,
+        "duration" : 1123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fill \"Last name\" field",
+      "time" : {
+        "start" : 1502526670658,
+        "stop" : 1502526671786,
+        "duration" : 1128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fill \"Start date\" field",
+      "time" : {
+        "start" : 1502526671786,
+        "stop" : 1502526672869,
+        "duration" : 1083
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fill \"Email\" field",
+      "time" : {
+        "start" : 1502526672869,
+        "stop" : 1502526673998,
+        "duration" : 1129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click \"Add\" button",
+      "time" : {
+        "start" : 1502526673998,
+        "stop" : 1502526675111,
+        "duration" : 1113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check, than new employee is in the employees list",
+      "time" : {
+        "start" : 1502526675111,
+        "stop" : 1502526676252,
+        "duration" : 1141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create employee"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Create new employee"
+  }, {
+    "name" : "thread",
+    "value" : "14304-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateEmployee"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CreateEmployee"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_create_new_employee"
+  }, {
+    "name" : "package",
+    "value" : "test_CreateEmployee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74bdb18b3f22f642.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

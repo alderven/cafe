@@ -1,0 +1,85 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "AANANYEV-PC",
+    "children" : [ {
+      "name" : "14304-MainThread",
+      "children" : [ {
+        "name" : "test_create_new_employee",
+        "uid" : "74bdb18b3f22f642",
+        "parentUid" : "c3099390027679d1618c356230a5f41a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526658659,
+          "stop" : 1502526676253,
+          "duration" : 17594
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_same_employee_twice",
+        "uid" : "c733e0d563da8042",
+        "parentUid" : "c3099390027679d1618c356230a5f41a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1502526679333,
+          "stop" : 1502526733203,
+          "duration" : 53870
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_employee",
+        "uid" : "6a8b5cd3b12a1b52",
+        "parentUid" : "c3099390027679d1618c356230a5f41a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526762435,
+          "stop" : 1502526789830,
+          "duration" : 27395
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_invalid_credentials",
+        "uid" : "4a5df62ea33d5492",
+        "parentUid" : "c3099390027679d1618c356230a5f41a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526792906,
+          "stop" : 1502526801713,
+          "duration" : 8807
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_logout",
+        "uid" : "c269d41f503183ae",
+        "parentUid" : "c3099390027679d1618c356230a5f41a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526804791,
+          "stop" : 1502526816942,
+          "duration" : 12151
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_employee",
+        "uid" : "4fc3f8aef2e59d73",
+        "parentUid" : "c3099390027679d1618c356230a5f41a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1502526736276,
+          "stop" : 1502526759352,
+          "duration" : 23076
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3099390027679d1618c356230a5f41a"
+    } ],
+    "uid" : "4d471f2868df438a0daf605a198dcb28"
+  } ]
+}

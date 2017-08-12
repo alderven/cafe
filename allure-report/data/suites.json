@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_EditEmployee",
+    "children" : [ {
+      "name" : "test_delete_employee",
+      "uid" : "6a8b5cd3b12a1b52",
+      "parentUid" : "3e6d74b813dbdb175345d8857ef5cf74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1502526762435,
+        "stop" : 1502526789830,
+        "duration" : 27395
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e6d74b813dbdb175345d8857ef5cf74"
+  }, {
+    "name" : "test_Login",
+    "children" : [ {
+      "name" : "test_login_invalid_credentials",
+      "uid" : "4a5df62ea33d5492",
+      "parentUid" : "c1af401277ac2f4b8b8a5bb18475e604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1502526792906,
+        "stop" : 1502526801713,
+        "duration" : 8807
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_logout",
+      "uid" : "c269d41f503183ae",
+      "parentUid" : "c1af401277ac2f4b8b8a5bb18475e604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1502526804791,
+        "stop" : 1502526816942,
+        "duration" : 12151
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c1af401277ac2f4b8b8a5bb18475e604"
+  }, {
+    "name" : "test_CreateEmployee",
+    "children" : [ {
+      "name" : "test_create_new_employee",
+      "uid" : "74bdb18b3f22f642",
+      "parentUid" : "3ea88ef00ae4993eccbb2de699b5b16b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1502526658659,
+        "stop" : 1502526676253,
+        "duration" : 17594
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_same_employee_twice",
+      "uid" : "c733e0d563da8042",
+      "parentUid" : "3ea88ef00ae4993eccbb2de699b5b16b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1502526679333,
+        "stop" : 1502526733203,
+        "duration" : 53870
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ea88ef00ae4993eccbb2de699b5b16b"
+  }, {
+    "name" : "test_DeleteEmployee",
+    "children" : [ {
+      "name" : "test_delete_employee",
+      "uid" : "4fc3f8aef2e59d73",
+      "parentUid" : "a2c182ad66d9e8aa44f7389bcb043827",
+      "status" : "passed",
+      "time" : {
+        "start" : 1502526736276,
+        "stop" : 1502526759352,
+        "duration" : 23076
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a2c182ad66d9e8aa44f7389bcb043827"
+  } ]
+}

@@ -1,0 +1,146 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "time" : {
+      "start" : 1502526658659,
+      "stop" : 1502526816942,
+      "duration" : 158283,
+      "minDuration" : 8807,
+      "maxDuration" : 53870,
+      "sumDuration" : 142893
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 4,
+    "items" : [ {
+      "uid" : "3ea88ef00ae4993eccbb2de699b5b16b",
+      "name" : "test_CreateEmployee",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "c1af401277ac2f4b8b8a5bb18475e604",
+      "name" : "test_Login",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "3e6d74b813dbdb175345d8857ef5cf74",
+      "name" : "test_EditEmployee",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "a2c182ad66d9e8aa44f7389bcb043827",
+      "name" : "test_DeleteEmployee",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ],
+  "behaviors" : {
+    "total" : 4,
+    "items" : [ {
+      "uid" : "7a65dcb87d936c3bcdad74b9fd65e251",
+      "name" : "Create employee",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "14102d61eef2af473312d4f91dec531b",
+      "name" : "Login",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "5a666bd7b8d6cb7145c99ea9f1473797",
+      "name" : "Delete employee",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "f9d399f530d26aced59bd7d73323a177",
+      "name" : "Edit employee",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
+      "name" : "Product defects",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

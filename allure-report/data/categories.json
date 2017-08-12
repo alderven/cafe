@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Expected 1 employee. Got: 2\nassert 2 == 1",
+      "children" : [ {
+        "name" : "test_add_same_employee_twice",
+        "uid" : "c733e0d563da8042",
+        "parentUid" : "f110accf4265dd08c592dc4f2d462e86",
+        "status" : "failed",
+        "time" : {
+          "start" : 1502526679333,
+          "stop" : 1502526733203,
+          "duration" : 53870
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f110accf4265dd08c592dc4f2d462e86"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
