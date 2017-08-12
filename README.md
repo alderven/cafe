@@ -3,12 +3,12 @@
 This projects is dedicated to the testing of following web site:
 http://cafetownsend-angular-rails.herokuapp.com/
 
-The Allure web page with the results of a sample test run can be found here:
+The Allure web page with the results of a sample test run can be found here: https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html
 
 ### DISCLAIMER ###
 * *There are only "smoke" tests written in the project. There are far more tests can be written to cover full functionality*
-* *Project compatible with the Windows platform only (but can be extended to the other platforms since Python and other tools are crossplatfrom)*
-* *Tests are run in Chrome browser only (but again project can be easily improved to involve other browsers)*
+* *Project compatible with the Windows platform only (but can be extended to support other platforms since Python and other tools are crossplatfrom)*
+* *Tests are run in Chrome browser only (but again project can be easily improved to include other browsers)*
 
 # HOW TO INSTALL:
 1. Download and unzip this project: https://github.com/alderven/cafe/archive/master.zip
@@ -27,10 +27,11 @@ The Allure web page with the results of a sample test run can be found here:
 ```javascript
 python -m pytest --alluredir report
 ```
-1. At the end you will get testrun results. It will be something like that
+1. At the end you will get test run results. It will contain some brief information about test results
 ```javascript
 ==================== 1 failed, 5 passed in 92.04 seconds =====================
 ```
+But to get more representative results we are going to generate Allure report.
 
 # HOW TO GENERATE ALLURE REPORT:
 We are using Allure Framework to get nice and detailed representation of the results.
@@ -38,13 +39,20 @@ Execute following line in Command Prompt:
 ```javascript
 allure serve full_path_to_report_folder
 ```
-The page is opening in your browser.
-You can found a lot of helpful information about run:
-In general you can see that 5 tests are passed and 1 with NORMAL criticity is failed.
+Generated Allure report will be shown in your browser. Here is the one generated for this project: https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html
+You can find a lot of helpful information in the report. Such as overall test run statistics:
+![Status](https://raw.githubusercontent.com/alderven/cafe/master/imgs/Status.png)
+* Features which were tested (here you can see that all blocking functionality is fine and one critical functionality was broken):
+![Severity](https://raw.githubusercontent.com/alderven/cafe/master/imgs/Severity.png)
+* Features which were tested:
+![Severity](https://raw.githubusercontent.com/alderven/cafe/master/imgs/Features.png)
+* Details of the each test case with the business level steps:
+![Test Case details](https://github.com/alderven/cafe/blob/master/imgs/TestSteps.png)
+And tons of other helpful information.
 
 # TECHNICAL BACKGROUND
 Following technologies were used:
 * Python: scripting language for writing tests
 * Pytest: test framework for Python for better tests organization
 * Selenium WebDriver: allows to interact with the web browser
-* Allure Framework: allows to generate web site with the test results
+* Allure Framework: allows to generate web page with the nice representation of test results
