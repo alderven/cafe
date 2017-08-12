@@ -17,7 +17,8 @@ The Allure web page with the results of a sample test run can be found here: htt
 1. Install following Python libs:
    * pytest: https://docs.pytest.org/en/latest/getting-started.html
    * selenium: https://pypi.python.org/pypi/selenium
-   * pytest-allure-adaptor https://pypi.python.org/pypi/pytest-allure-adaptor
+   * pytest-allure-adaptor: https://pypi.python.org/pypi/pytest-allure-adaptor
+   * names: https://pypi.python.org/pypi/names/
 1. Download and unzip Chrome driver to the project root folder:
    https://sites.google.com/a/chromium.org/chromedriver/downloads
 1. Install Allure Framework. See detailed instruction: https://docs.qameta.io/allure/latest/
