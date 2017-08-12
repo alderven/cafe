@@ -6,9 +6,10 @@ http://cafetownsend-angular-rails.herokuapp.com/
 The Allure web page with the results of a sample test run can be found here: https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html
 
 ### DISCLAIMER ###
-* *There are only "smoke" tests written in the project. There are far more tests can be written to cover full functionality*
+* *There are only "smoke" tests written in the project just to cover basic functionality. There are far more tests can be written to cover full functionality*
 * *Project compatible with the Windows platform only (but can be extended to support other platforms since Python and other tools are crossplatfrom)*
 * *Tests are run in Chrome browser only (but again project can be easily improved to include other browsers)*
+* *One test fails due to the bug in functionality (the bug is: it is possible to create same employee twice while it should not; employee should be unique)*
 
 # HOW TO INSTALL:
 1. Download and unzip this project: https://github.com/alderven/cafe/archive/master.zip
