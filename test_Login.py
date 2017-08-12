@@ -1,3 +1,4 @@
+import names
 import pytest
 import methods
 
@@ -8,11 +9,11 @@ import methods
 def test_login_invalid_credentials(driver, config):
 
     with pytest.allure.step('Enter invalid Username'):
-        invalid_username = methods.generate_random_string()
+        invalid_username = names.get_first_name()
         methods.LoginPage.enter_username(driver, config, invalid_username)
 
     with pytest.allure.step('Enter invalid Password'):
-        invalid_password = methods.generate_random_string()
+        invalid_password = names.get_last_name()
         methods.LoginPage.enter_password(driver, config, invalid_password)
 
     with pytest.allure.step('Click "Login" button'):

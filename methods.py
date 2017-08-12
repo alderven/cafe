@@ -1,22 +1,21 @@
 import time
-import random
-import string
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 
 WAIT = 1
 WAIT_SEL = 10
 
 
 def find_by_xpath(driver, xpath):
-    wait = WebDriverWait(driver, WAIT_SEL)
-    el = wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
     time.sleep(WAIT)
+    wait = WebDriverWait(driver, WAIT_SEL)
+    el = wait.until(ec.presence_of_element_located((By.XPATH, xpath)))
     return el
 
 
 def accept_alert(driver):
+    WebDriverWait(driver, WAIT_SEL).until(ec.alert_is_present())
     alert = driver.switch_to_alert()
     alert.accept()
 
@@ -81,8 +80,12 @@ class EmployeesPage:
         find_by_xpath(driver, config['LOCATORS']['DeleteButton']).click()
 
     @staticmethod
-    def select_element_in_the_list(driver, config, index):
-        find_by_xpath(driver, config['LOCATORS']['CreateButton'].replace('{i}', str(index))).click()
+    def find_employee_by_full_name(driver, config, first_name, last_name):
+        employees = EmployeesPage.Create.get_all_employees(driver, config)
+        employees_list = employees.split('\n')
+        employee_full_name = '{} {}'.format(first_name, last_name)
+        index = employees_list.index(employee_full_name) + 1
+        find_by_xpath(driver, config['LOCATORS']['EmployeesRow'].replace('{i}', str(index))).click()
 
     class Create:
 
@@ -127,7 +130,3 @@ class EmployeesPage:
         @staticmethod
         def click_update_button(driver, config):
             find_by_xpath(driver, config['LOCATORS']['UpdateButton']).click()
-
-
-def generate_random_string():
-    return ''.join(random.choices(string.ascii_letters + string.digits, k=random.randint(1, 20)))

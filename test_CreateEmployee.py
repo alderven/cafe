@@ -1,3 +1,4 @@
+import names
 import pytest
 import datetime
 import methods
@@ -12,11 +13,11 @@ def test_create_new_employee(driver, config, login):
         methods.EmployeesPage.click_create_button(driver, config)
 
     with pytest.allure.step('Fill "First name" field'):
-        first_name = methods.generate_random_string()
+        first_name = names.get_first_name()
         methods.EmployeesPage.Create.fill_first_name_field(driver, config, first_name)
 
     with pytest.allure.step('Fill "Last name" field'):
-        last_name = methods.generate_random_string()
+        last_name = names.get_last_name()
         methods.EmployeesPage.Create.fill_last_name_field(driver, config, last_name)
 
     with pytest.allure.step('Fill "Start date" field'):
@@ -24,7 +25,7 @@ def test_create_new_employee(driver, config, login):
         methods.EmployeesPage.Create.fill_start_date_field(driver, config, date)
 
     with pytest.allure.step('Fill "Email" field'):
-        email = methods.generate_random_string() + '@gmail.com'
+        email = '{}.{}@gmail.com'.format(first_name, last_name)
         methods.EmployeesPage.Create.fill_email_field(driver, config, email)
 
     with pytest.allure.step('Click "Add" button'):

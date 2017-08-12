@@ -1,4 +1,5 @@
 import os
+import names
 import pytest
 import datetime
 import methods
@@ -46,16 +47,16 @@ def new_employee(driver, config, login):
 
     methods.EmployeesPage.click_create_button(driver, config)
 
-    first_name = methods.generate_random_string()
+    first_name = names.get_first_name()
     methods.EmployeesPage.Create.fill_first_name_field(driver, config, first_name)
 
-    last_name = methods.generate_random_string()
+    last_name = names.get_last_name()
     methods.EmployeesPage.Create.fill_last_name_field(driver, config, last_name)
 
     date = datetime.datetime.now().strftime("%Y-%m-%d")
     methods.EmployeesPage.Create.fill_start_date_field(driver, config, date)
 
-    email = methods.generate_random_string() + '@gmail.com'
+    email = '{}.{}@gmail.com'.format(first_name, last_name)
     methods.EmployeesPage.Create.fill_email_field(driver, config, email)
 
     methods.EmployeesPage.Create.click_add_button(driver, config)
