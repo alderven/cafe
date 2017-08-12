@@ -11,13 +11,15 @@ The Allure web page with the results of a sample test run can be found here: htt
 * *Tests are run in Chrome browser only (but again project can be easily improved to include other browsers)*
 * *One test fails due to the bug in functionality (the bug is: it is possible to create same employee twice while it should not; employee should be unique)*
 
-# TEST CASES AND RESULTS:
-Functionality                  | Test Case | Test Run Result in Allure Report
+# TEST CASES AND TEST RUN RESULTS:
+Test Case | Test Case | Test Run Result in Allure Report
 ------------------------------ | --------- | --------------------------------
 Login and logout               | [test_Login.py](https://github.com/alderven/cafe/blob/master/test_Login.py)  | [Passed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/c1af401277ac2f4b8b8a5bb18475e604/c269d41f503183ae/)
 Login with invalid credentials | [test_Login.py](https://github.com/alderven/cafe/blob/master/test_Login.py)  | [Passed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/c1af401277ac2f4b8b8a5bb18475e604/4a5df62ea33d5492/)
-
-*Rest of the cases TBD...*
+Create Employee                | [test_CreateEmployee.py](https://github.com/alderven/cafe/blob/master/test_CreateEmployee.py) | [Passed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/3ea88ef00ae4993eccbb2de699b5b16b/74bdb18b3f22f642/)
+Create same Employee twice     | [test_CreateEmployee.py](https://github.com/alderven/cafe/blob/master/test_CreateEmployee.py) | [Failed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/3ea88ef00ae4993eccbb2de699b5b16b/c733e0d563da8042/)
+Delete Employee                | [test_DeleteEmployee.py](https://github.com/alderven/cafe/blob/master/test_DeleteEmployee.py) | [Passed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/a2c182ad66d9e8aa44f7389bcb043827/4fc3f8aef2e59d73/)
+Edit Employee                  | [test_EditEmployee.py](https://github.com/alderven/cafe/blob/master/test_EditEmployee.py) | [Passed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/3e6d74b813dbdb175345d8857ef5cf74/6a8b5cd3b12a1b52/)
 
 # HOW TO INSTALL:
 1. Download and unzip this project: https://github.com/alderven/cafe/archive/master.zip
