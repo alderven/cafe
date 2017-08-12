@@ -11,6 +11,14 @@ The Allure web page with the results of a sample test run can be found here: htt
 * *Tests are run in Chrome browser only (but again project can be easily improved to include other browsers)*
 * *One test fails due to the bug in functionality (the bug is: it is possible to create same employee twice while it should not; employee should be unique)*
 
+# TEST CASES AND RESULTS:
+Functionality                  | Test Case | Test Run Result in Allure Report
+------------------------------ | --------- | --------------------------------
+Login with valid credentials   | [test_Login.py](https://github.com/alderven/cafe/blob/master/test_Login.py)  | [Passed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/c1af401277ac2f4b8b8a5bb18475e604/c269d41f503183ae/)
+Login with invalid credentials | [test_Login.py](https://github.com/alderven/cafe/blob/master/test_Login.py)  | [Passed](https://cdn.rawgit.com/alderven/cafe/master/allure-report/index.html#suites/c1af401277ac2f4b8b8a5bb18475e604/4a5df62ea33d5492/)
+
+*Rest of the cases TBD...*
+
 # HOW TO INSTALL:
 1. Download and unzip this project: https://github.com/alderven/cafe/archive/master.zip
 1. Install Python 3.6 or higher: https://www.python.org/downloads/
