@@ -1,4 +1,6 @@
 import time
+
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
@@ -10,7 +12,11 @@ WAIT_SEL = 10
 def find_by_xpath(driver, xpath):
     time.sleep(WAIT)
     wait = WebDriverWait(driver, WAIT_SEL)
-    el = wait.until(ec.presence_of_element_located((By.XPATH, xpath)))
+    el = None
+    try:
+        el = wait.until(ec.presence_of_element_located((By.XPATH, xpath)))
+    except NoSuchElementException as e:
+        assert 'Following XPATH not found: "{}". Exception: {}'.format(xpath, e)
     return el
 
 
