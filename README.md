@@ -38,7 +38,7 @@ The Allure web page with the results of a sample test run can be found here: htt
 1. Launch Command Prompt (cmd.exe) in the project folder
 1. Execute following line in Command Prompt:
 ```javascript
-python -m pytest --alluredir report
+python -m pytest --alluredir full_path_to_report_folder
 ```
 1. At the end you will get test run results. It will contain some brief information about test results
 ```javascript
